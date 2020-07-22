@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ebebeb;
+}
+
+.calendario {
+    margin: auto;
+    width: 400px;
+    text-align: center;
+
+}
+
+.calendario table {
+    width: 100%;
+}
+
+.calendario .mes {
+    display: none;
+}
+
+.calendario td {
+    padding: 6px;
+    color: #5e5d5b;
+}
+
+/*marca o dia Atual
+
+/* .calendario td.atual{
+    background:#ee6f04;
+    color:white;
+} */
+
+.calendario td a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.calendario .mes_title {
+    font-size: 15px;
+}
+
+.calendario .mes_title td {
+    background: #069;
+    padding: 5px;
+    padding-bottom: 6px;
+    color: white;
+    align-items: center;
+}
+
+.calendario #volta,
+.calendario #vai {
+    padding: 0 10px;
+    font-size: 16px;
+    text-decoration: none;
+    background: linear-gradient(to bottom, #fff, #ccc 130%);
+    line-height: 28px;
+    margin: 3px;
+    position: absolute;
+    color: #333;
+}
+
+.calendario #volta:hover,
+.calendario #vai:hover {
+    background: linear-gradient(to bottom, #ccc, #fff 130%);
+}
+
+.calendario #volta {
+    left: -1px;
+    top: -1px;
+}
+
+.calendario #vai {
+    right: -1px;
+    top: -1px;
+}
+
+.blue,
+.red {
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.blue {
+    background: #069;
+}
+
+.red {
+    background: #EC2F00;
+}
+
+.calendario .legends {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.calendario .legends .legenda {
+    float: left;
+    width: 30%;
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px !important;
+}
+
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+    margin-left: 120px !important;
+}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0 !important;
+    }
+}
+
+.w3-sidebar {
+    width: 120px !important;
+    background-color: #fffdff !important;
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto;
+    display: block !important;
+}
+
+.w3-button:hover {
+    color: #000 !important;
+    background-color: #fbf7f4 !important;
+    border-left: 4px solid #e67000 !important;
+}
+
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #495057 !important;
+    background-color: #fbf7f4 !important;
+    border-color: #fbf7f4 #fbf7f4 #ed6f00 !important;
+}
+
+
+#inputMes {
+    background-color: rgba(0, 0, 0, 0.0) !important;
+    border-color: #eee9e5 #eee9e5 #ded9d5 !important;
+    color: #302b28 !important;
+}
+
+.progress-bar {
+    display: -ms-flexbox !important;
+    display: flex;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    overflow: hidden !important;
+    color: #fff !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    background-color: #01794b !important;
+    transition: width .6s ease !important;
+    height: 3px !important;
+}
+
+#label_periodo {
+    font-size: 15px !important;
+    text-align: start !important;
+    font-weight: bold !important;
+}
+
+#barra-periodo {
+    align-items: center !important;
+    text-align: center !important;
+    font-weight: bold;
+}
+
+#acabou-periodo {
+    text-decoration: underline !important;
+}
+
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+    background-color: #ccc;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff !important;
+    background-color: #ee6f00 !important;
+    border-color: #ee6f00 !important;
+}
+
+.btn-outline-secondary.focus,
+.btn-outline-secondary:focus {
+    box-shadow: 0 0 0 .2rem rgba(108, 117, 125, .5)
+}
+
+.btn-outline-secondary.disabled,
+.btn-outline-secondary:disabled {
+    color: #6c757d;
+    background-color: transparent
+}
+
+.btn-outline-secondary:not(:disabled):not(.disabled).active,
+.btn-outline-secondary:not(:disabled):not(.disabled):active,
+.show>.btn-outline-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d
+}
+
+.btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-outline-secondary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-outline-secondary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(108, 117, 125, .5)
+}
