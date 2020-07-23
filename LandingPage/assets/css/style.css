@@ -136,7 +136,7 @@ input {
     color: white;
     width: 313px;
     height: 50px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 @media screen and (min-width: 900px) {
