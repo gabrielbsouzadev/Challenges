@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 100%;
+    min-height: 916px;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #767676;
+    opacity: 0.2;
+}
+
+@media screen and (min-width: 900px) {
+    .lading-logo {
+        margin-bottom: 80px;
+    }
+}
+
+ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+}
+
+li {
+    counter-increment: my-awesome-counter;
+    margin: 0.25rem;
+}
+
+li::before {
+    content: counter(my-awesome-counter);
+    background-color: none;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 4rem;
+    color: white;
+    text-align: center;
+    margin-right: 0.5rem;
+    font-size: 2rem;
+    border-style: solid;
+    border: solid 0.05rem white;
+}
+
+.list-group-item-2:last-child {
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+
+.list-group-item-2 {
+    position: relative;
+    display: flex;
+    padding: .75rem 1.25rem;
+    background-color: none;
+    border: none;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+
+
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #fff;
+    opacity: 0.6;
+    color: black;
+
+}
+
+@media screen and (min-width: 900px) {
+    input {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        margin-left: 120px;
+
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        background: #fff;
+        opacity: 0.6;
+        color: black;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .lading-paragraph {
+        line-height: 23px;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    .lading-title {
+        line-height: 0.4;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .landing-list {
+        margin-right: 34px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .landing-form {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .landing-field {
+        display: flex;
+        flex-flow: row-reverse;
+    }
+}
+
+.btn-form {
+    background-color: #ff7300;
+    color: white;
+    width: 313px;
+    height: 50px;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 900px) {
+    .btn-form {
+        background-color: #ff7300;
+        color: white;
+        width: 402px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
