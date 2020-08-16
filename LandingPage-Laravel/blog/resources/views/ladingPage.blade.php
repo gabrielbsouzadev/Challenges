@@ -216,7 +216,7 @@
         </div>
         <div class="col-md-6">
             <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-4 d-flex flex-column position-static">
+                <div class="col p-4 d-flex flex-column position-static bg-danger">
 
                     <h3 class="mb-0">Post title</h3>
                     <div class="mb-1 text-muted">Nov 11</div>
@@ -239,7 +239,7 @@
     <div class="row mb-2">
         <div class="col-md-6">
             <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-4 d-flex flex-column position-static">
+                <div class="col p-4 d-flex flex-column position-static" style="background-color: #563d7c;">
 
                     <h3 class="mb-0">Post title</h3>
                     <div class="mb-1 text-muted">Nov 11</div>
@@ -252,8 +252,8 @@
                         <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
                     </svg>
                 </div>
-                <img src="https://previews.dropbox.com/p/thumb/AA5-PSrrnUhva1AgaHyq0aOpeXYmKwVpuM-VxBp7vqf9F52CGN2-6T-xRswx5z7a4xFD7vplnD_ipmjSXqdshvSeoDdvMS-a6h9E08WczgCKDvWIR6U0W6QdCOeAIj7lndVx9WqTQ26jgMmC5hE-3nSZyS6RZ2G0nbfTNhlMschalEbzzO4hTuc0mAKAb5jT2DJ16kC5vk4uKjA9aYWhK7bsDsawp3QosxHd0yNOY5st14dmTq7-zo7EtcohFbRf__eJrblpPUOxPAda0xm4irMI6IA8NMvbuX5Fh0RilIuz7s6PAp-0jj-OFOCpMSJUc3g_ZEkLREZ-BPGvfkwIGK-EP0n-9nMCUVd6eXR2z-HENsxPeikPBdlPJC5Lgonbulu1fLrprRreH5Z9_51DbX3QBUGqGu3MXL3-w2icH9i0ZxSt_86MmL9rXLvJClBcUBBeD6tNcs6SPmox8eYqgwNgu_QV9SkwqdkNyULmMo25qM1JBiUNOmlKwC7lgqotQB0bUESH3tk9JuePhlm5a5rSWFLOEbbR_-PndwJprtT_Qw/p.jpeg?size=1280x960&size_mode=3" alt="" height="50%" width="75%" style="margin-top: -100px">
-                <button type="button" class="btn btn-danger" style="margin-left: 25%;margin-top: -20px;">Quero me candidatar</button>
+                <img src="https://previews.dropbox.com/p/thumb/AA4_MLaG5cIqunJdbXxVP4plbdGsaH3Lev35LSU73eztQ806a0H5Av352EW9XP0vDlfWnCMjdJzi2B775Tc6olc3jQVpCh_A70grLkdcHjLoLISWtxrBJFvLk7C3wntF5ap4GBF8h21rYfWy-xWMUwwG6XPVBw1DjFFRvXqpPlul97DaQS5mAuIXd8IrSFcr4cMKZy4aE8GFKUhdr2CNfDs5SFUjy_tG_vSyvfLAXSra6I3yUsR0UdHLgt5Kx1qMngUDgU6e4U73UdPXGRzDX3ZA4R50ZDORnwZiUjFQdmgwTuvB-PJ2n6M2aqSR4A8IaLUFR6Bs_pyNu4LRnZLHiKtic2WxCQ_edFk2qvSlovkM4Dl9vWRMtTklBYIoF7n2siHwqc7m48vUxOXKicar4oxEjbRGFNcaR-4gwqQqfxt7DbZbyyH6101HCdNl9hXqPDnI5GGych1Sia7_Ey61D-yAofEw-TELCPvUKR6Xqt33Y-tzpe_L8SknSpmQxSH6iC7DBJc_nXFnY4Dgilvkbob7bVz9C5KPHBD4u-DepHP9IiEkng0I3YYRyUuTri1JMFuv6Rk_TOtuezJowpK5btSv/p.jpeg?fv_content=true&size_mode=5" alt="" height="50%" width="75%" style="margin-left: 155px">
+                <button type="button" class="btn btn-danger" style="margin-left: 50%;margin-top: -20px;">Quero me candidatar</button>
             </div>
 
         </div>
@@ -273,6 +273,136 @@
                     </svg>
                 </div>
             </div>
+        </div>
+    </div>
+
+
+    <div class="row mb-2">
+        <div class="col-md-6">
+            <div class="row no-gutters border-white overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <div class="border-white card mx-auto" style="width: 18rem;">
+                        <div class="card-body mt-5 ml-5">
+                            <h3>Maecenas faucibus elementum</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 bg-light">
+            <div class="mx-auto">
+                <div class="card-body mt-3 ml-5">
+                    <img src="https://previews.dropbox.com/p/thumb/AA58fEqImZZSLTrX6dC2mYgT761fcbpNvXEoPkrJxq7xzRgqYqsozWEu9MrOWoATNkPyuZDMOzlLgdVcCe1wf463ixy6km5dE9jVDewmuOM6-WpdPS1Jt8KKSLEeuFzdMk7uhGUhPstUB6KZ3GQrzkgtp4x8-Kreomjz4339XgFmCdCKo0x5pbVApETHFvRlcWHU_349rWW-GPr9C5apEuK9ZyVk9AV-0UCJrDYNmB-oXWMOK6miTTZ9FhdaN1hh4dre_ji5nQZyuuLlOyUvpxIAXp0FYHD0-eZHzhb4hODVRwyasrc-JCEwxPeCtPAdVD8my-GGYSCY5O9LMeTu67Wgjj6TyanIj1U30KCdPkhurQ/p.png?fv_content=true&amp;size_mode=5" alt="" height="100%" width="50%" style="margin-top: -90px;">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="container">
+                <div class="card-deck mx-auto" style="justify-content: center">
+                    <div class="card border-light" style="max-width: 18rem;">
+                        <div class="card-header text-center">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Light card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <img class="Card image cap" style="height: 100px;width: 25%;display: block;align-items: center;text-align: center;margin: auto;" src="https://previews.dropbox.com/p/thumb/AA6qxRlbRbVEsiDy7uabnx9qE2NYHag4aJhLSQK8oZ1DSE8KMbIUl2_SGCItFUeNtIXtUA6h33h-pnmqSsYa4j0L5qkPyyjvug4kH6jqHtpxf3SEuz6hsYk9jtjB3gCda0tCQj3KEZV0rGR3N7pJk6Vk651XYl2ak8I8jGT2IpbNSdyZpuaiVNMHqjXyTgV-pw6xOA3zidKB8xk343vqG-rN5mkGbBkboAKNeFoD1W8-m5k_OWrcb-s1ciWETOCQrc1MJoW40jxbhEH9yAzUkpN8ftYayk-LIh-MvoXn8s82WyJh8UQjSpnD-TOAywFLSMqbCiupSfrhNOy8TmWqMMrZsmC2oI2uzz9ulBd1dbnhDw/p.png?fv_content=true&size_mode=5" alt="Card image cap">
+                    </div>
+
+                    <div class="card border-light" style="max-width: 18rem;">
+                        <div class="card-header text-center">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Light card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <img class="Card image cap" style="height: 100px;width: 25%;display: block;align-items: center;text-align: center;margin: auto;" src="https://previews.dropbox.com/p/thumb/AA6qxRlbRbVEsiDy7uabnx9qE2NYHag4aJhLSQK8oZ1DSE8KMbIUl2_SGCItFUeNtIXtUA6h33h-pnmqSsYa4j0L5qkPyyjvug4kH6jqHtpxf3SEuz6hsYk9jtjB3gCda0tCQj3KEZV0rGR3N7pJk6Vk651XYl2ak8I8jGT2IpbNSdyZpuaiVNMHqjXyTgV-pw6xOA3zidKB8xk343vqG-rN5mkGbBkboAKNeFoD1W8-m5k_OWrcb-s1ciWETOCQrc1MJoW40jxbhEH9yAzUkpN8ftYayk-LIh-MvoXn8s82WyJh8UQjSpnD-TOAywFLSMqbCiupSfrhNOy8TmWqMMrZsmC2oI2uzz9ulBd1dbnhDw/p.png?fv_content=true&size_mode=5" alt="Card image cap">
+                    </div>
+                    <div class="card border-light" style="max-width: 18rem;">
+                        <div class="card-header text-center">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Light card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <img class="Card image cap" style="height: 100px;width: 25%;display: block;align-items: center;text-align: center;margin: auto;" src="https://previews.dropbox.com/p/thumb/AA6qxRlbRbVEsiDy7uabnx9qE2NYHag4aJhLSQK8oZ1DSE8KMbIUl2_SGCItFUeNtIXtUA6h33h-pnmqSsYa4j0L5qkPyyjvug4kH6jqHtpxf3SEuz6hsYk9jtjB3gCda0tCQj3KEZV0rGR3N7pJk6Vk651XYl2ak8I8jGT2IpbNSdyZpuaiVNMHqjXyTgV-pw6xOA3zidKB8xk343vqG-rN5mkGbBkboAKNeFoD1W8-m5k_OWrcb-s1ciWETOCQrc1MJoW40jxbhEH9yAzUkpN8ftYayk-LIh-MvoXn8s82WyJh8UQjSpnD-TOAywFLSMqbCiupSfrhNOy8TmWqMMrZsmC2oI2uzz9ulBd1dbnhDw/p.png?fv_content=true&size_mode=5" alt="Card image cap">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron p-4 p-md-5 text-white bg-dark" style="margin-top: -50px;">
+        <div class="card-columns">
+            <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title that wraps to a new line</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card p-3">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer class="blockquote-footer">
+                        <small class="text-muted">
+                            Someone famous in <cite title="Source Title">Source Title</cite>
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card bg-primary text-white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                    <footer class="blockquote-footer">
+                        <small>
+                            Someone famous in <cite title="Source Title">Source Title</cite>
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img" src="..." alt="Card image">
+            </div>
+            <div class="card p-3 text-right">
+                <blockquote class="blockquote mb-0">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer class="blockquote-footer">
+                        <small class="text-muted">
+                            Someone famous in <cite title="Source Title">Source Title</cite>
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron p-4 p-md-5 text-white rounded bg-light">
+        <div class="col-md-6 px-0">
+            <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
+            <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+            <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
         </div>
     </div>
 
