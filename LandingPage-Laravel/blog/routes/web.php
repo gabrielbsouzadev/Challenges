@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/lading-page', function () {
     return view('ladingPage');
 });
+
+Route::get('/lading-page-teste', function () {
+    return view('ladingPageTeste');
+});
