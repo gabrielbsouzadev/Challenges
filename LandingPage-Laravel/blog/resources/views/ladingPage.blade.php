@@ -4,10 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+
+
+    <!-- icons -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 
 
     <title>Landing Page - Rits</title>
@@ -85,13 +89,27 @@
                         </div>
                         <div class="col-auto d-none d-lg-block opaimg">
                             <img src="https://previews.dropbox.com/p/thumb/AA4C5SH9PjteFGKdOIk6lqys4RD4i_4C-CumOUo5w-F9c6cdYCsa39s9BpSpih0iackYHnHWrm_QzF__1-DD6SO55zxt6yZZOEVbvMNnoqxLaY6A7BLnIs2ZTi51c-qw9mFhumOm87W_XwCF6cF5lMZmIoAI38XFvsnd6eLUMXmksR_OazQ1Vk1yt3EQE83vCpnnHDHNom5jyvwS9q9xkSy0RAMDgPlkFwDmKgaSxgc7kr3afagDgjR_WEVMjf9gmvzrTiepn-EZkbdsdtAlZChGUsSR20sFKL12b9LzojEuyxQxS-Qmvym9ZdOO8R4fxU27mN8zmvuR2frS156mwj4Avn1DVgIkughvz3iIx6uKXhYwWSPU4oJCFq7kXEqH0HRO3EHK0YtihpxVXpMXsgibHkhOc7dKR8At29zSXTNi_UmqYcC3As6kT2FN0PS2QJDYzX5m0wngxCVbHU-Fkkxp274ek1bT8KWwwVQbKRCdIQ/p.jpeg?size=1280x960&size_mode=3" alt="" height="225px" width="300px">
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- <div class="col p-4 d-flex flex-column position-static">
+
+        <h3 class="mb-0">Post title</h3>
+        <div class="mb-1 text-muted">Nov 11</div>
+        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+
+    </div>
+    <div>
+        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+        </svg>
+    </div>
+    <img src="https://previews.dropbox.com/p/thumb/AA5-PSrrnUhva1AgaHyq0aOpeXYmKwVpuM-VxBp7vqf9F52CGN2-6T-xRswx5z7a4xFD7vplnD_ipmjSXqdshvSeoDdvMS-a6h9E08WczgCKDvWIR6U0W6QdCOeAIj7lndVx9WqTQ26jgMmC5hE-3nSZyS6RZ2G0nbfTNhlMschalEbzzO4hTuc0mAKAb5jT2DJ16kC5vk4uKjA9aYWhK7bsDsawp3QosxHd0yNOY5st14dmTq7-zo7EtcohFbRf__eJrblpPUOxPAda0xm4irMI6IA8NMvbuX5Fh0RilIuz7s6PAp-0jj-OFOCpMSJUc3g_ZEkLREZ-BPGvfkwIGK-EP0n-9nMCUVd6eXR2z-HENsxPeikPBdlPJC5Lgonbulu1fLrprRreH5Z9_51DbX3QBUGqGu3MXL3-w2icH9i0ZxSt_86MmL9rXLvJClBcUBBeD6tNcs6SPmox8eYqgwNgu_QV9SkwqdkNyULmMo25qM1JBiUNOmlKwC7lgqotQB0bUESH3tk9JuePhlm5a5rSWFLOEbbR_-PndwJprtT_Qw/p.jpeg?size=1280x960&size_mode=3" alt="" height="50%" width="75%" style="margin-top: -100px"> -->
 
     <div class="container">
         <div class="row mb-2">
@@ -118,61 +136,149 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row mb-2">
-            <div class="col-md-6 bg-success">
-                <img src="https://previews.dropbox.com/p/thumb/AA67Hrj3Q_TLOGdAzkAQsw9wAdVMQmFSUpXMHG-HeLAUQpfRiHxdIyRCm81Zkj1YgfTxmFcWoQW_8nAoR5y0K9631z2R7qu-3aWodPk1JLxwfJBnFNkU3BftYYJZY0GVQcrwkyYXKEwvM8RcT4YmBPBh94Ly396nfRvKEyneV0zZfH_c5SRfXwsZca5Voqan-L2q7r0lkBa-azmWdZHLilafH_wwdnt-hsgQ4_ugqP7lfY3PtK5G230c_U1MFHGZZRdI_dxSOn5wUW5MhGgaaoDfB40E_P5mYAL88OTau7sLSppnEK6B3aIu0-_B-UX0bVNV1hvHWJV6WdHDce6X2GtJICfdcGXil1LrUDNzsddZWr28-dQTb6TmIIVBzZfNxBy2Ow6T71tx0qVWVWSFzH4QKOcOjeuE_vW57mESGabjif4i9YX1IP-goAim1Y-dsGsoBsDGPznFS74CXJHsNjX6IA9zEHIM3ev1e50HtmUvag/p.jpeg?size=1280x960&size_mode=3" alt="" height="50%" width="75%" style="margin-top: -135px;margin-left: 150px;">
-                <div class="row no-gutters border-sucess overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <div class="border-sucess card mx-auto bg-success" style="width: 18rem;">
-                            <div class="card-body mt-5 ml-5" style="margin-right: -100px;">
-                                <h3>Ut eu dolar vitae elit bidendum fringilla elit...</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
 
-                <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <div class="bs-example" data-example-id="simple-nav-stacked">
-                            <table class="w3-table-all notranslate">
-                                <tbody>
-                                    <tr>
-                                        <th style="width:20%;">Icon</th>
-                                        <th style="width:70%;">Description</th>
-                                        <th>Example</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <button type="button" class="btn btn-default" aria-label="Left Align">
-                                                <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><span class="glyphicon glyphicon-asterisk"></span></td>
-                                        <td>glyphicon glyphicon-asterisk</td>
-                                        <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp?filename=trybs_ref_glyph_asterisk">Try it</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span class="glyphicon glyphicon-align-left" aria-hidden="true"></span></td>
-                                        <td>glyphicon glyphicon-plus</td>
-                                        <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp?filename=trybs_ref_glyph_plus">Try it</a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
+    <div class="row mb-2">
+        <div class="col-md-6 bg-success">
+            <img src="https://previews.dropbox.com/p/thumb/AA67Hrj3Q_TLOGdAzkAQsw9wAdVMQmFSUpXMHG-HeLAUQpfRiHxdIyRCm81Zkj1YgfTxmFcWoQW_8nAoR5y0K9631z2R7qu-3aWodPk1JLxwfJBnFNkU3BftYYJZY0GVQcrwkyYXKEwvM8RcT4YmBPBh94Ly396nfRvKEyneV0zZfH_c5SRfXwsZca5Voqan-L2q7r0lkBa-azmWdZHLilafH_wwdnt-hsgQ4_ugqP7lfY3PtK5G230c_U1MFHGZZRdI_dxSOn5wUW5MhGgaaoDfB40E_P5mYAL88OTau7sLSppnEK6B3aIu0-_B-UX0bVNV1hvHWJV6WdHDce6X2GtJICfdcGXil1LrUDNzsddZWr28-dQTb6TmIIVBzZfNxBy2Ow6T71tx0qVWVWSFzH4QKOcOjeuE_vW57mESGabjif4i9YX1IP-goAim1Y-dsGsoBsDGPznFS74CXJHsNjX6IA9zEHIM3ev1e50HtmUvag/p.jpeg?size=1280x960&size_mode=3" alt="" height="50%" width="75%" style="margin-top: -135px;margin-left: 170px;">
+            <div class="row no-gutters border-sucess overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" style="margin-left: 50px">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <div class="border-sucess card mx-auto bg-success" style="width: 18rem;">
+                        <div class="card-body mt-5 ml-5" style="margin-right: -100px;">
+                            <h3>Ut eu dolar vitae elit bidendum fringilla elit...</h3>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="col-md-6">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <div class="bs-example" data-example-id="simple-nav-stacked">
+                        <div class="container">
+                            <p>
+                                <i class="fas fa-coffee fa-xs"></i>
+                                <i class="fas fa-coffee fa-sm"></i>
+                                <i class="fas fa-coffee"></i>
+                                <i class="fas fa-coffee fa-lg"></i>
+                            </p>
+                            <p><i class="fas fa-heart fa-2x text-danger"></i> yourself. Beauty comes from the inside out.</p>
+                            <p>The beauty of a living thing is not the <i class="fas fa-atom text-info"></i> that go into it, but the way those <i class="fas fa-atom text-info"></i> are put together.</p>
+                        </div>
+                        <table class="w3-table-all notranslate">
+                            <tbody>
+                                <tr>
+                                    <th style="width:20%;">Icon</th>
+                                    <th style="width:70%;">Description</th>
+                                    <th>Example</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <button type="button" class="btn btn-default" aria-label="Left Align">
+                                            <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span class="glyphicon glyphicon-asterisk"></span></td>
+                                    <td>glyphicon glyphicon-asterisk</td>
+                                    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp?filename=trybs_ref_glyph_asterisk">Try it</a></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="glyphicon glyphicon-align-left" aria-hidden="true"></span></td>
+                                    <td>glyphicon glyphicon-plus</td>
+                                    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp?filename=trybs_ref_glyph_plus">Try it</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="row mb-2">
+        <div class="col-md-6">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-primary">World</strong>
+                    <h3 class="mb-0">Featured post</h3>
+                    <div class="mb-1 text-muted">Nov 12</div>
+                    <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+
+                    <h3 class="mb-0">Post title</h3>
+                    <div class="mb-1 text-muted">Nov 11</div>
+                    <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+
+                </div>
+                <div>
+                    <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+                    </svg>
+                </div>
+                <img src="https://previews.dropbox.com/p/thumb/AA5-PSrrnUhva1AgaHyq0aOpeXYmKwVpuM-VxBp7vqf9F52CGN2-6T-xRswx5z7a4xFD7vplnD_ipmjSXqdshvSeoDdvMS-a6h9E08WczgCKDvWIR6U0W6QdCOeAIj7lndVx9WqTQ26jgMmC5hE-3nSZyS6RZ2G0nbfTNhlMschalEbzzO4hTuc0mAKAb5jT2DJ16kC5vk4uKjA9aYWhK7bsDsawp3QosxHd0yNOY5st14dmTq7-zo7EtcohFbRf__eJrblpPUOxPAda0xm4irMI6IA8NMvbuX5Fh0RilIuz7s6PAp-0jj-OFOCpMSJUc3g_ZEkLREZ-BPGvfkwIGK-EP0n-9nMCUVd6eXR2z-HENsxPeikPBdlPJC5Lgonbulu1fLrprRreH5Z9_51DbX3QBUGqGu3MXL3-w2icH9i0ZxSt_86MmL9rXLvJClBcUBBeD6tNcs6SPmox8eYqgwNgu_QV9SkwqdkNyULmMo25qM1JBiUNOmlKwC7lgqotQB0bUESH3tk9JuePhlm5a5rSWFLOEbbR_-PndwJprtT_Qw/p.jpeg?size=1280x960&size_mode=3" alt="" height="50%" width="75%" style="margin-top: -100px">
+                <button type="button" class="btn btn-danger" style="margin-left: 25%;margin-top: -20px;">Quero me candidatar</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-md-6">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+
+                    <h3 class="mb-0">Post title</h3>
+                    <div class="mb-1 text-muted">Nov 11</div>
+                    <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+
+                </div>
+                <div>
+                    <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+                    </svg>
+                </div>
+                <img src="https://previews.dropbox.com/p/thumb/AA5-PSrrnUhva1AgaHyq0aOpeXYmKwVpuM-VxBp7vqf9F52CGN2-6T-xRswx5z7a4xFD7vplnD_ipmjSXqdshvSeoDdvMS-a6h9E08WczgCKDvWIR6U0W6QdCOeAIj7lndVx9WqTQ26jgMmC5hE-3nSZyS6RZ2G0nbfTNhlMschalEbzzO4hTuc0mAKAb5jT2DJ16kC5vk4uKjA9aYWhK7bsDsawp3QosxHd0yNOY5st14dmTq7-zo7EtcohFbRf__eJrblpPUOxPAda0xm4irMI6IA8NMvbuX5Fh0RilIuz7s6PAp-0jj-OFOCpMSJUc3g_ZEkLREZ-BPGvfkwIGK-EP0n-9nMCUVd6eXR2z-HENsxPeikPBdlPJC5Lgonbulu1fLrprRreH5Z9_51DbX3QBUGqGu3MXL3-w2icH9i0ZxSt_86MmL9rXLvJClBcUBBeD6tNcs6SPmox8eYqgwNgu_QV9SkwqdkNyULmMo25qM1JBiUNOmlKwC7lgqotQB0bUESH3tk9JuePhlm5a5rSWFLOEbbR_-PndwJprtT_Qw/p.jpeg?size=1280x960&size_mode=3" alt="" height="50%" width="75%" style="margin-top: -100px">
+                <button type="button" class="btn btn-danger" style="margin-left: 25%;margin-top: -20px;">Quero me candidatar</button>
+            </div>
+
+        </div>
+        <div class="col-md-6">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-primary">World</strong>
+                    <h3 class="mb-0">Featured post</h3>
+                    <div class="mb-1 text-muted">Nov 12</div>
+                    <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 <footer>
-    <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
