@@ -34,11 +34,29 @@
     .opaimg {
         filter: brightness(30%);
     }
+
+    .noborder {
+        border: none !important;
+    }
 </style>
+
+<!-- <div class="container d-flex justify-content-between">
+    <a href="#" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false">
+            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+            <circle cx="12" cy="13" r="4"></circle>
+        </svg>
+        <strong>Album</strong>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</div> -->
 
 <body>
     <div class="container">
         <header>
+
             <nav class="navbar navbar-light bg-white">
                 <img src="/assets/images/section-1.png" alt="">
                 <nav class="my-2 my-md-0 mr-md-5">
@@ -53,17 +71,15 @@
 
     <div class="row mb-2">
         <div class="col-md-6 sobre">
-            <div class="row no-gutters border-white overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-4 d-flex flex-column position-static">
-                    <div class="border-white card mx-auto" style="width: 18rem;">
-                        <div class="card-body mt-3 ml-5">
-                            <h5 class="card-title">Consectetur adipiscing elit</h5>
-                            <p class="card-text"><b>Lorem ipsum:</b> dolor sit amet consectetur, adipisicing elit. Aspernatur, doloribus!</p>
-                            <button type="button" class="btn btn-danger">Quero me candidatar</button>
-                        </div>
-                    </div>
+
+            <div class="border-white card mx-auto" style="width: 18rem;">
+                <div class="card-body mt-3 ml-5">
+                    <h5 class="card-title">Consectetur adipiscing elit</h5>
+                    <p class="card-text"><b>Lorem ipsum:</b> dolor sit amet consectetur, adipisicing elit. Aspernatur, doloribus!</p>
+                    <button type="button" class="btn btn-danger">Quero me candidatar</button>
                 </div>
             </div>
+
         </div>
         <div class="col-md-6 sobre">
             <img src="/assets/images/section-2.jpg" alt="" height="400px" width="100%">
@@ -78,7 +94,7 @@
 
                     width: 600px;
                     height: 300px;
-                    /* border: 1px solid black; */
+                    border: 1px solid black;
                     margin: -270px 350px auto auto;
                 }
 
@@ -93,7 +109,7 @@
                     margin: auto;
                     background-image: url('/assets/images/section-3.jpg');
                     background-repeat: no-repeat; */
-                    filter: brightness(30%); 
+                    filter: brightness(30%);
                 }
             </style>
 
@@ -101,8 +117,24 @@
                 <img src="/assets/images/section-3.jpg" alt="" height="200px" width="100%" style="margin: auto auto auto 180%;">
             </div>
 
-            <div id="myDIV" class="bg-white text-black border-white">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, id. Repellendus quidem, pariatur esse optio earum deserunt quam labore nesciunt laboriosam suscipit culpa aliquam fugit, quaerat cum distinctio veniam autem!</p>
+            <!-- <div id="myDIV" class="bg-white text-black border-white">
+                
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <div class="border-white card mx-auto" style="width: 18rem;">
+                            <div class="card-body mt-3 ml-5">
+                                <h5 class="card-title">Consectetur adipiscing elit</h5>
+                                <p class="card-text"><b>Lorem ipsum:</b> dolor sit amet consectetur, adipisicing elit. Aspernatur, doloribus!</p>
+                                <button type="button" class="btn btn-danger">Quero me candidatar</button>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div> -->
+            <div id="myDIV" class="bg-white border light">
+                <div class="border-white card" style="width: 18rem;margin: 50px auto auto 50px;">
+                    <h5 class="card-title text-danger">Consectetur adipiscing elit</h5>
+                    <p class="card-text"><b>Lorem ipsum:</b> dolor sit amet consectetur, adipisicing elit. Aspernatur, doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ipsam qui consectetur est voluptatum inventore voluptates odio atque ipsa id ratione repellat!</p>
+                </div>
             </div>
         </div>
     </div>
@@ -137,138 +169,143 @@
     <div class="row mb-2">
         <div class="col-md-6 bg-success">
             <img src="/assets/images/section-5.jpg" alt="" height="50%" width="75%" style="margin-top: -135px;margin-left: 170px;">
-            <div class="row no-gutters border-sucess overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" style="margin-left: 50px">
-                <div class="col p-4 d-flex flex-column position-static">
-                    <div class="border-sucess card mx-auto bg-success" style="width: 18rem;">
-                        <div class="card-body mt-5 ml-5" style="margin-right: -100px;">
-                            <h3>Ut eu dolar vitae elit bidendum fringilla elit...</h3>
-                        </div>
-                    </div>
+
+            <div class="mx-auto bg-success" style="width: 18rem;">
+                <div class="card-body mt-5 ml-5" style="margin-right: -100px;">
+                    <h3><span class="text-white">Ut eu dolar vitae elit bidendum</span> fringilla elit?</h3>
                 </div>
             </div>
+
         </div>
         <div class="col-md-6">
-            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-4 d-flex flex-column position-static">
-                    <div class="bs-example" data-example-id="simple-nav-stacked">
-                        <div class="container">
-                            <p>
-                                <i class="fas fa-coffee fa-xs"></i>
-                                <i class="fas fa-coffee fa-sm"></i>
-                                <i class="fas fa-coffee"></i>
-                                <i class="fas fa-coffee fa-lg"></i>
-                            </p>
-                            <p><i class="fas fa-heart fa-2x text-danger"></i> yourself. Beauty comes from the inside out.</p>
-                            <p>The beauty of a living thing is not the <i class="fas fa-atom text-info"></i> that go into it, but the way those <i class="fas fa-atom text-info"></i> are put together.</p>
-                        </div>
-                        <table class="w3-table-all notranslate">
-                            <tbody>
-                                <tr>
-                                    <th style="width:20%;">Icon</th>
-                                    <th style="width:70%;">Description</th>
-                                    <th>Example</th>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <button type="button" class="btn btn-default" aria-label="Left Align">
-                                            <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
-                                        </button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><span class="glyphicon glyphicon-asterisk"></span></td>
-                                    <td>glyphicon glyphicon-asterisk</td>
-                                    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp?filename=trybs_ref_glyph_asterisk">Try it</a></td>
-                                </tr>
-                                <tr>
-                                    <td><span class="glyphicon glyphicon-align-left" aria-hidden="true"></span></td>
-                                    <td>glyphicon glyphicon-plus</td>
-                                    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp?filename=trybs_ref_glyph_plus">Try it</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="sidebar-sticky pt-5">
+                <ul class="nav flex-column">
+                    <li class="nav-item" style="margin-bottom: 5%;">
+                        <a class="nav-link active" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                            </svg>
+                            Dashboard <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="margin-bottom: 5%;">
+                        <a class="nav-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+                                <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                                <polyline points="13 2 13 9 20 9"></polyline>
+                            </svg>
+                            Orders
+                        </a>
+                    </li>
+                    <li class="nav-item" style="margin-bottom: 5%;">
+                        <a class="nav-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart">
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                            Products
+                        </a>
+                    </li>
+
+                </ul>
             </div>
         </div>
     </div>
 
     <div class="row mb-2">
         <div class="col-md-6">
-            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-4 d-flex flex-column position-static">
-                    <strong class="d-inline-block mb-2 text-primary">World</strong>
-                    <h3 class="mb-0">Featured post</h3>
-                    <div class="mb-1 text-muted">Nov 12</div>
-                    <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="stretched-link">Continue reading</a>
-                </div>
-                <div class="col-auto d-none d-lg-block">
-                    <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-                    </svg>
-                </div>
+            <div class="sidebar-sticky pt-5">
+                <ul class="nav flex-column" style="margin-left: 50%;">
+                    <li class="nav-item" style="margin-bottom: 5%;">
+                        <a class="nav-link active" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                            </svg>
+                            Dashboard <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="margin-bottom: 5%;">
+                        <a class="nav-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+                                <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                                <polyline points="13 2 13 9 20 9"></polyline>
+                            </svg>
+                            Orders
+                        </a>
+                    </li>
+                    <li class="nav-item" style="margin-bottom: 5%;">
+                        <a class="nav-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart">
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                            Products
+                        </a>
+                    </li>
+
+                </ul>
             </div>
         </div>
         <div class="col-md-6">
-            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-4 d-flex flex-column position-static bg-danger">
-
-                    <h3 class="mb-0">Post title</h3>
-                    <div class="mb-1 text-muted">Nov 11</div>
-                    <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-
+            <div class="mx-auto bg-danger" style="height: 250px;margin-top: -54px;margin-left: -15px!important;">
+                <div class="card-body mt-5 ml-5">
+                    <h3 class="text-white">Ut eu dolar<br> vitae elit <span class="text-warning">bidendum <br> fringilla elit?</span></h3>
                 </div>
-                <div>
-                    <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-                    </svg>
-                </div>
-                <img src="/assets/images/section-6.jpg" alt="" height="50%" width="75%" style="margin-top: -100px">
-                <button type="button" class="btn btn-danger" style="margin-left: 25%;margin-top: -20px;">Quero me candidatar</button>
             </div>
-
+            <img src="/assets/images/section-6.jpg" alt="" height="50%" width="75%" style="margin-top: -100px; margin-left: -15px;">
+            <button type="button" class="btn btn-danger" style="margin-left: 25%;margin-top: -20px;">Quero me candidatar</button>
         </div>
     </div>
 
+
+
     <div class="row mb-2">
         <div class="col-md-6">
-            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-4 d-flex flex-column position-static" style="background-color: #563d7c;">
+            <div class="mx-auto" style="background-color: #563d7c; margin-top: -22%; width: 102%; height: 75%;">
 
-                    <h3 class="mb-0">Post title</h3>
-                    <div class="mb-1 text-muted">Nov 11</div>
-                    <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-
+                <div class="card-body mt-5 ml-3" style="margin-left: 150px!important;">
+                    <h3 class="text-white">Ut eu dolar<br> vitae elit bidendum <br><span class="text-danger">Mauris fringilla elit?</span></h3>
                 </div>
-                <div>
-                    <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-                    </svg>
-                </div>
-                <img src="/assets/images/section-7.jpg" alt="" height="50%" width="75%" style="margin-left: 155px">
-                <button type="button" class="btn btn-danger" style="margin-left: 50%;margin-top: -20px;">Quero me candidatar</button>
             </div>
-
+            <img src="/assets/images/section-7.jpg" alt="" height="80%" width="75%" style="margin-left: 167px; margin-top: -90px;">
+            <button type="button" class="btn btn-danger" style="margin-left: 50%;margin-top: -20px;">Quero me candidatar</button>
         </div>
         <div class="col-md-6">
-            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-4 d-flex flex-column position-static">
-                    <strong class="d-inline-block mb-2 text-primary">World</strong>
-                    <h3 class="mb-0">Featured post</h3>
-                    <div class="mb-1 text-muted">Nov 12</div>
-                    <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="stretched-link">Continue reading</a>
-                </div>
-                <div class="col-auto d-none d-lg-block">
-                    <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-                    </svg>
-                </div>
+            <div class="sidebar-sticky pt-5">
+                <ul class="nav flex-column">
+                    <li class="nav-item" style="margin-bottom: 5%;">
+                        <a class="nav-link active" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                            </svg>
+                            Dashboard <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="margin-bottom: 5%;">
+                        <a class="nav-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+                                <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                                <polyline points="13 2 13 9 20 9"></polyline>
+                            </svg>
+                            Orders
+                        </a>
+                    </li>
+                    <li class="nav-item" style="margin-bottom: 5%;">
+                        <a class="nav-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart">
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                            Products
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -299,7 +336,7 @@
             <div class="container">
                 <div class="card-deck mx-auto" style="justify-content: center">
                     <div class="card border-light" style="max-width: 18rem;">
-                        <div class="card-header text-center">Header</div>
+                        <div class="card-header text-center text-danger"><strong>Viverra</strong></div>
                         <div class="card-body">
                             <h5 class="card-title">Light card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -308,7 +345,7 @@
                     </div>
 
                     <div class="card border-light" style="max-width: 18rem;">
-                        <div class="card-header text-center">Header</div>
+                        <div class="card-header text-center text-success"><strong>Pretium</strong></div>
                         <div class="card-body">
                             <h5 class="card-title">Light card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -316,7 +353,7 @@
                         <img class="Card image cap" style="height: 10%;width: 25%;display: block;align-items: center;text-align: center;margin: auto auto 10% auto;" src="/assets/images/card-2-img-section-9.png" alt="Card image cap">
                     </div>
                     <div class="card border-light" style="max-width: 18rem;">
-                        <div class="card-header text-center">Header</div>
+                        <div class="card-header text-center text-info"><strong>Mauris</strong></div>
                         <div class="card-body">
                             <h5 class="card-title">Light card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -329,85 +366,81 @@
     </div>
 
     <div class="jumbotron p-4 p-md-5 text-white bg-dark" style="margin-top: -50px;">
-        <div class="card-columns">
-            <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title that wraps to a new line</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h2 class="h2 text-left" style="margin: 5% auto 5% 10%;">Praesent volutpat consequat odio</h2>
+        <div class="container">
+            <div class="row" style="margin: auto 6% auto 6%;">
+                <div class="col-4">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action text-danger" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home"><strong>Viverra</strong></a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card p-3">
-                <blockquote class="blockquote mb-0 card-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">
-                        <small class="text-muted">
-                            Someone famous in <cite title="Source Title">Source Title</cite>
-                        </small>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="col-4">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="bg-dark text-white list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+                        <a class="bg-dark text-white list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+                        <a class="bg-dark text-white list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+                        <a class="bg-dark text-white list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+                        <a class="bg-dark text-white list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+                        <a class="bg-dark text-white list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card bg-primary text-white text-center p-3">
-                <blockquote class="blockquote mb-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                    <footer class="blockquote-footer">
-                        <small>
-                            Someone famous in <cite title="Source Title">Source Title</cite>
-                        </small>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="card text-center">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img" src="..." alt="Card image">
-            </div>
-            <div class="card p-3 text-right">
-                <blockquote class="blockquote mb-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">
-                        <small class="text-muted">
-                            Someone famous in <cite title="Source Title">Source Title</cite>
-                        </small>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="col-4">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="bg-dark text-white list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+                        <a class="bg-dark text-white list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+                        <a class="bg-dark text-white list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+                        <a class="bg-dark text-white list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+                        <a class="bg-dark text-white list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+                        <a class="bg-dark text-white list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
 
     <footer>
 
         <div class="jumbotron p-4 p-md-5 rounded bg-light">
             <div class="container">
-                <ul class="list-group list-group-horizontal" style="justify-content: center; margin-top: -100px;">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Morbi leo risus</li>
+                <ul class="list-group list-group-horizontal text-center" style="justify-content: center; margin-top: -100px;">
+                    <li class="list-group-item">
+                        <a class="nav-link active" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                            </svg>
+                            Alguma<br> duvida? <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+
+                    <li class="list-group-item">
+                        <a class="nav-link active" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                            </svg>
+                            Ligamos<br> pra você<span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+
+                    <li class="list-group-item">
+                        <a class="nav-link active" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                            </svg>
+                            Fale pelo<br> Whatsapp<span class="sr-only">(current)</span>
+                        </a>
+                    </li>
                 </ul>
 
                 <div class="container mx-auto">
                     <p class="float-right"><a href="#">Back to top</a></p>
-                    <p>© 2017-2020 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+                    <!-- <p>© 2017-2020 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p> -->
+                    <img src="/assets/images/section-rodape.jpg" alt="" width="5%">
                 </div>
             </div>
 
