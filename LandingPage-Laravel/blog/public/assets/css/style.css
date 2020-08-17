@@ -1,0 +1,44 @@
+.retire-margin {
+    margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .sobre {
+        margin-bottom: -40px !important;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .jumbotron {
+        padding: 4rem none !important;
+    }
+}
+
+.sobsec2 {
+    margin-left: 135px !important;
+}
+
+.opaimg {
+    filter: brightness(30%);
+}
+
+.noborder {
+    border: none !important;
+}
+
+#myDIV {
+
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    margin: -270px 350px auto auto;
+}
+
+#DIV2 {
+    position: relative;
+    top: 130px;
+    left: 30px;
+    width: 300px;
+    height: 400px;
+    filter: brightness(30%);
+}

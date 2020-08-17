@@ -6,52 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    
 
     <title>Landing Page - Rits</title>
 </head>
 
-<style>
-    .retire-margin {
-        margin: 0;
-    }
 
-    @media only screen and (min-width: 768px) {
-        .sobre {
-            margin-bottom: -40px !important;
-        }
-    }
 
-    @media only screen and (min-width: 576px) {
-        .jumbotron {
-            padding: 4rem none !important;
-        }
-    }
-
-    .sobsec2 {
-        margin-left: 135px !important;
-    }
-
-    .opaimg {
-        filter: brightness(30%);
-    }
-
-    .noborder {
-        border: none !important;
-    }
-</style>
-
-<!-- <div class="container d-flex justify-content-between">
-    <a href="#" class="navbar-brand d-flex align-items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false">
-            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
-            <circle cx="12" cy="13" r="4"></circle>
-        </svg>
-        <strong>Album</strong>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-</div> -->
 
 <body>
     <div class="container">
@@ -88,48 +51,10 @@
 
     <div class="jumbotron bg-success">
         <div class="container" style="margin-bottom: -165px;">
-
-            <style>
-                #myDIV {
-
-                    width: 600px;
-                    height: 300px;
-                    border: 1px solid black;
-                    margin: -270px 350px auto auto;
-                }
-
-                #DIV2 {
-                    position: relative;
-                    top: 130px;
-                    left: 30px;
-                    width: 300px;
-                    height: 400px;
-                    /* background-color: coral;
-                    border: 1px solid black;
-                    margin: auto;
-                    background-image: url('/assets/images/section-3.jpg');
-                    background-repeat: no-repeat; */
-                    filter: brightness(30%);
-                }
-            </style>
-
             <div id="DIV2">
                 <img src="/assets/images/section-3.jpg" alt="" height="200px" width="100%" style="margin: auto auto auto 180%;">
             </div>
 
-            <!-- <div id="myDIV" class="bg-white text-black border-white">
-                
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <div class="border-white card mx-auto" style="width: 18rem;">
-                            <div class="card-body mt-3 ml-5">
-                                <h5 class="card-title">Consectetur adipiscing elit</h5>
-                                <p class="card-text"><b>Lorem ipsum:</b> dolor sit amet consectetur, adipisicing elit. Aspernatur, doloribus!</p>
-                                <button type="button" class="btn btn-danger">Quero me candidatar</button>
-                            </div>
-                        </div>
-                    </div>
-                
-            </div> -->
             <div id="myDIV" class="bg-white border light">
                 <div class="border-white card" style="width: 18rem;margin: 50px auto auto 50px;">
                     <h5 class="card-title text-danger">Consectetur adipiscing elit</h5>
@@ -439,7 +364,6 @@
 
                 <div class="container mx-auto">
                     <p class="float-right"><a href="#">Back to top</a></p>
-                    <!-- <p>© 2017-2020 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p> -->
                     <img src="/assets/images/section-rodape.jpg" alt="" width="5%">
                 </div>
             </div>
